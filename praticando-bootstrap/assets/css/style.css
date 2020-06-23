@@ -1,8 +1,7 @@
 
 #navbarra{
     background-color: rgb(75, 75, 255);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    
 }
 #search{
     height: 40px;
@@ -12,9 +11,8 @@
 #search::-webkit-input-placeholder{
     text-align: center;
 }
-i{
-        
-    
+#iconemenu{
+    padding-top: px;
 }
 .botaonav{
     height: 42px;
@@ -22,4 +20,6 @@ i{
     border-radius: 10px;
 
 }
-
+.navbar-toggler{
+    border: none;
+}

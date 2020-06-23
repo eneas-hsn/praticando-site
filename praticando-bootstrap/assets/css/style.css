@@ -1,0 +1,25 @@
+
+#navbarra{
+    background-color: rgb(75, 75, 255);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#search{
+    height: 40px;
+    border-radius: 6px;
+    margin-right: 4px;
+}
+#search::-webkit-input-placeholder{
+    text-align: center;
+}
+i{
+        
+    
+}
+.botaonav{
+    height: 42px;
+    width: 42px;
+    border-radius: 10px;
+
+}
+

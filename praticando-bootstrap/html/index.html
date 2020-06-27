@@ -2,7 +2,6 @@
 <html lang="pt-br">
 
 <head>
-  <!-- Meta tags Obrigatórias -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -13,11 +12,12 @@
   <title>Site genérico</title>
   <link rel="icon" href="/praticando-bootstrap/assets/img/werewolf.png">
   <link rel="stylesheet" href="/praticando-bootstrap/assets/css/style.css">
-
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
 
 <body>
+
+  <!--barra de navegação-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow" id='navbarra'>
     <a class="navbar-brand" href="#"><img id='insta' src="/praticando-bootstrap/assets/img/instagram.png" alt="">Logo
       Genérica</a>
@@ -26,23 +26,21 @@
       aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
       <ul class="navbar-nav mr-auto">
-
         <li class="nav-item">
           <a class="nav-link" href="#">Home
             <span class="sr-only">(página atual)</span></a>
         </li>
-
         <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
         </li>
-
+        <li class="nav-item">
+          <a class="nav-link" href="#courses">Courses</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
-
       </ul>
       <input id='search' type="text" placeholder='Pesquisar'>
       <button class="botaonav">
@@ -50,15 +48,14 @@
       </button>
   </nav>
 
-  <!--carrousel-->
 
+  <!--carrousel-->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
-
     <!--itens-->
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -94,9 +91,9 @@
     </a>
   </div>
 
+
   <!--Sobre nós-->
   <div class="jumbotron" id="about">
-
     <h1 class="display-4" style='text-align:center;'>Sobre Nós</h1>
     <div id='sobre'>
       <div>
@@ -109,10 +106,44 @@
       </div>
       <div><img id='sobreimg' src="/praticando-bootstrap/assets/img/logistics.png" alt=""></div>
     </div>
-
   </div>
 
 
+  <!--cursos em cards-->
+  <div class="jumbotron" id="courses">
+    <h1 class="display-4" style='text-align:center;'>Nossos Cursos</h1>
+
+    <div class="row ">
+
+      <div class="card mx-auto mt-5" style="width: 18rem;">
+    <img class="card-img-top" src="https://becode.com.br/wp-content/uploads/2018/03/aplicacoes-html-css-js-feed-1.png" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Curso de programação</h5>
+      <p class="card-text">Curso voltado ao conhecimento sobre a linguagem X. Possui diversas práticas e mini projetos para auxiliar no aprendizado do assinante.</p>
+      <a href="#" class="btn btn-primary">Página do Curso</a>
+    </div>
+  </div>
+
+  <div class="card mx-auto mt-5" style="width: 18rem;">
+    <img class="card-img-top" src="https://becode.com.br/wp-content/uploads/2018/03/aplicacoes-html-css-js-feed-1.png" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Curso de programação</h5>
+      <p class="card-text">Curso voltado ao conhecimento sobre a linguagem X. Possui diversas práticas e mini projetos para auxiliar no aprendizado do assinante.</p>
+      <a href="#" class="btn btn-primary">Página do Curso</a>
+    </div>
+  </div>
+
+  <div class="card mx-auto mt-5" style="width: 18rem;">
+    <img class="card-img-top" src="https://becode.com.br/wp-content/uploads/2018/03/aplicacoes-html-css-js-feed-1.png" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Curso de programação</h5>
+      <p class="card-text">Curso voltado ao conhecimento sobre a linguagem X. Possui diversas práticas e mini projetos para auxiliar no aprendizado do assinante.</p>
+      <a href="#" class="btn btn-primary">Página do Curso</a>
+    </div>
+  </div></div>
+    
+  </div>
+  
 
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

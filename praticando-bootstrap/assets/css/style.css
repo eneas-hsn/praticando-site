@@ -1,5 +1,5 @@
 body{
-    max-width: 1250px;
+    max-width: 1200px;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -8,7 +8,7 @@ body{
 }
 #navbarra{
     background-color: rgb(255, 255, 255);
-    max-width: 1250px;
+    max-width: 1200px;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -50,4 +50,18 @@ body{
 }
 #about{
     margin-top: 33px;
+}
+#carouselExampleIndicators{
+    margin-top: 60px;
+}
+.contact{
+    height: 40px;
+}
+#contact a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+#contact img{
+    margin-right: 10px;
 }

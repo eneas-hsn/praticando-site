@@ -70,3 +70,20 @@ body{
     display: flex;
     color: white;
 }
+@media(max-width:750px){
+    #sobre{
+        display: inline;
+       
+    }
+    #sobre img{
+        margin-left: 23vw;
+    }
+}
+@media(max-width:666px){
+    #contact{
+        display: inline;
+    }#links{
+    margin-left: 14vw;
+    margin-top: 35px;
+}
+}
